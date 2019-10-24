@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "GLHorizontalLabelView"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "GLHorizontalLabelView 互动的"
 
   # This description is used to generate tags and improve search results.
@@ -61,7 +61,7 @@ Pod::Spec.new do |spec|
   #  the deployment target. You can optionally include the target after the platform.
   #
 
-  spec.platform     = :ios
+  spec.ios.deployment_target = "8.0"
   # spec.platform     = :ios, "5.0"
 
   #  When using multiple platforms
